@@ -5,8 +5,8 @@
 // Neat
 @import "../bower_components/neat/app/assets/stylesheets/neat";
 
-$blue: #062d5d;
-$grey: #808080;
+$dark-blue: #062d5d;
+$medium-dark-grey: #808080;
 
 @font-face {
     font-family: 'oceaniaregular';
@@ -49,7 +49,7 @@ html {
 }
 
 .navigation-main {
-    color: $blue;
+    color: $dark-blue;
     font-size: 13px; // convert this to em?
     font-family: oceaniaregular, sans-serif;
 }
@@ -62,7 +62,7 @@ html {
 }
 
 .couple-photo {
-    border: 1px solid $grey;
+    border: 1px solid $medium-dark-grey;
     float: left;
 }
 
