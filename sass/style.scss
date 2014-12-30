@@ -35,7 +35,7 @@ html {
 }
 
 .background {
-    @include opacity(.5);
+    opacity: 0.5;
 }
 
 .container {
@@ -58,7 +58,7 @@ html {
     @include box-sizing(border-box);
     background-color: white;
     padding: 1.7283951%;
-    @include clearfix();
+    @include clearfix;
 }
 
 .couple-photo {
@@ -67,7 +67,7 @@ html {
 }
 
 .copyright {
-    @include opacity(0.7);
+    opacity: 0.7;
     color: black;
     font-size: 9px; // convert to em?
 }
