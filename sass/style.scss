@@ -5,9 +5,6 @@
 // Neat
 @import "../bower_components/neat/app/assets/stylesheets/neat";
 
-$dark-blue: #062d5d;
-$medium-dark-grey: #808080;
-
 @font-face {
     font-family: 'oceaniaregular';
     src: url('/font/oceania-regular_33403-webfont.eot');
@@ -54,12 +51,12 @@ html {
 }
 
 .couple-photo {
-    border: 1px solid $medium-dark-grey;
+    border: 1px solid $dark-gray;
     float: left;
 }
 
 .copyright {
     opacity: 0.7;
-    color: black;
+    color: $dark-gray;
     font-size: 9px; // convert to em?
 }
