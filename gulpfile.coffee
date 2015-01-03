@@ -18,8 +18,6 @@ sourcemaps = require('gulp-sourcemaps')
 
 # LiveReload
 livereload = require('gulp-livereload')
-lr = require('tiny-lr')
-server = lr()
 
 
 # ==================================================
@@ -105,7 +103,7 @@ gulp.task 'copy-index', ->
 # Reload
 gulp.task 'reload', ->
   gulp.src(watched_files)
-    .pipe livereload(server)
+    .pipe livereload()
 
 
 # Preflight. Make ready for production.
@@ -115,15 +113,13 @@ gulp.task 'preflight', ->
 
 # Watch
 gulp.task 'watch', ->
-  # Fire up the LiveReload Server
-  server.listen 35729, (err) ->
-    return console.log(err) if err
+  livereload.listen()
 
-    # Watch all the files in the sass directory
-    gulp.watch "#{sass_path}/**", ['sass-dev']
+  # Watch all the files in the sass directory
+  gulp.watch "#{sass_path}/**", ['sass-dev']
 
-    # Watch all the php and html files
-    gulp.watch watched_files, ['reload']
+  # Watch PHP, HTML, CSS, & JS
+  gulp.watch watched_files, ['reload']
 
 
 # Default Task
