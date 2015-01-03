@@ -6,18 +6,27 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1 class="monogram"><img src="/img/monogram.png" alt="GMR monogram"></h1>
+        <header class="centered-navigation">
+            <div class="centered-navigation-wrapper">
+                <a href="/" class="mobile-logo">
+                    <img src="/img/monogram.png" alt="GMR monogram">
+                </a>
 
-            <nav class="navigation-main">
-                <ul>
-                    <li>Welcome</li>
-                    <li>When+Where</li>
-                    <li>Stay+Play</li>
-                    <li>Bridal Party</li>
+                <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
+
+                <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
+                    <li class="nav-link">Welcome</li>
+                    <li class="nav-link">When+Where</li>
+                    <li class="nav-link logo">
+                        <a href="/">
+                            <img src="/img/monogram.png" alt="GMR monogram">
+                        </a>
+                    </li>
+                    <li class="nav-link">Stay+Play</li>
+                    <li class="nav-link">Bridal Party</li>
                 </ul>
-            </nav>
-        </header><!-- /header -->
+            </div>
+        </header>
 
         <div class="content">
             <img class="couple-photo" src="/img/fancy-couple.jpg" alt="Morgan and Ryan in formal attire">
@@ -33,5 +42,7 @@
 
         <p class="copyright">© 2014–2015 byrnesgrayson.com</p>
     </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/js/script.js" async defer></script>
 </body>
 </html>
