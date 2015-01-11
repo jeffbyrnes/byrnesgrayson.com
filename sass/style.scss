@@ -22,10 +22,10 @@ html {
     @include background(
         linear-gradient(
             to bottom,
-            rgba(209, 211, 212, 0.5),
-            rgba(209, 211,212, 0.5) 50%,
+            rgba(255, 255, 255, 0.5),
             rgba(255, 255, 255, 0.5) 50%,
-            rgba(255, 255, 255, 0.5)
+            rgba(209, 211, 212, 0.5) 50%,
+            rgba(209, 211, 212, 0.5)
         )
     );
     background-size: 100% 54px;
