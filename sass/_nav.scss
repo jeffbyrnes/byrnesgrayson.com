@@ -45,6 +45,7 @@
         line-height: $centered-navigation-height;
         margin: 0;
         padding-right: $centered-navigation-submenu-padding;
+        text-decoration: none;
         text-transform: uppercase;
 
         @include media ($horizontal-bar-mode) {
@@ -102,18 +103,23 @@
         width: 100%;
         z-index: 9999;
 
+        a {
+            color: $centered-navigation-color;
+            display: inline-block;
+            text-decoration: none;
+
+            &:hover {
+                color: $centered-navigation-color-hover;
+            }
+        }
+
         @include media($horizontal-bar-mode) {
             background: transparent;
             display: inline;
             line-height: $centered-navigation-height;
-        }
 
-        a {
-            color: $centered-navigation-color;
-            display: inline-block;
-
-            &:hover {
-                color: $centered-navigation-color-hover;
+            a {
+                padding-right: $centered-navigation-item-padding;
             }
         }
     }
