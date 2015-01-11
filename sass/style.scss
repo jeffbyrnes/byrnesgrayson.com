@@ -68,6 +68,9 @@ html {
 .copyright {
     @include span-columns(12);
     @include omega;
+
+    text-align: center;
+
     opacity: 0.7;
     color: $dark-gray;
     font-size: 9px; // convert to em?
