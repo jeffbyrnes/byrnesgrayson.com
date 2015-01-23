@@ -48,6 +48,12 @@ if (in_array($_SERVER['REQUEST_URI'], array('/', '/index.php'))) {
     </div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="/js/script.js" async defer></script>
-    <script src="http://localhost:35729/livereload.js?snipver=1"></script>
+    <?php
+    if ($_SERVER['HTTP_HOST'] === 'local.byrnesgrayson.com') {
+        ?>
+        <script src="http://localhost:35729/livereload.js"></script>
+        <?php
+    }
+    ?>
 </body>
 </html>
