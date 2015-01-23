@@ -1,6 +1,6 @@
 <img class="main-photo" src="/img/palmetto-bluff-map.png" alt="A map of Palmetto Bluff & surrounding area">
 
-<section class="essentials">
+<section class="copy">
     <h1>Stay + Play</h1>
 
     <p>We recommend flying into Savannah, GA, but Hilton Head, SC also has a small airport you can fly into. Both are approximately a 30 minute drive to Palmetto Bluff.</p>

@@ -1,6 +1,6 @@
 <img class="main-photo" src="/img/palmetto-bluff-chapel.jpg" alt="The chapel at Palmetto Bluff">
 
-<section class="essentials">
+<section class="copy">
     <h1>When + Where</h1>
 
     <h2><time datetime="2015-09-19">September 19, 2015</time></h2>
