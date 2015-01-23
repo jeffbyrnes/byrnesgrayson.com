@@ -31,38 +31,49 @@ html {
 }
 
 .container {
-    @include outer-container;
+    @include media($large-screen) {
+        @include outer-container;
+    }
 }
 
 @import "nav";
 
 .content {
-    @include span-columns(10);
-    @include shift(1);
-    @include omega;
-
     background-color: $base-background-color;
     @include pad(1.7283951%);
     border: 1px solid $blue;
     margin-bottom: em(25);
+    text-align: center;
+
+    @include media($large-screen) {
+        @include span-columns(10);
+        @include shift(1);
+        @include omega;
+
+        text-align: left;
+    }
 }
 
 .main-photo {
-    @include span-columns(4 of 10);
+    @include media($large-screen) {
+        @include span-columns(4 of 10);
+    }
 
     border: 1px solid $dark-gray;
 }
 
 .copy {
-    @include span-columns(6 of 10);
-    @include omega;
+    @include media($large-screen) {
+        @include span-columns(6 of 10);
+        @include omega;
+
+        &.full-width {
+            @include span-columns(10 of 10);
+        }
+    }
 
     .home & {
         padding-top: 9.6%;
-    }
-
-    &.full-width {
-        @include span-columns(10 of 10);
     }
 }
 
@@ -73,8 +84,10 @@ html {
 }
 
 .copyright {
-    @include span-columns(12);
-    @include omega;
+    @include media($large-screen) {
+        @include span-columns(12);
+        @include omega;
+    }
 
     text-align: center;
 
