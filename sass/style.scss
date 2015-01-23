@@ -62,6 +62,10 @@ html {
         @include pad(9.6% 0 0);
     }
 
+    &.full-width {
+        @include span-columns(10 of 10);
+    }
+
     img {
         display: block;
 
