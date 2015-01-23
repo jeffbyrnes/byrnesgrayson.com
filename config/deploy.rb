@@ -7,4 +7,4 @@ server 'byrnesgrayson.com', user: 'deploy', roles: %w(web app)
 # Default value for :log_level is :debug
 set :log_level, :debug
 
-before 'deploy:published', 'gulp'
+before 'deploy:published', 'gulp:default'
