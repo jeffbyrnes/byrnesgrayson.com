@@ -13,7 +13,7 @@ namespace :gulp do
   task upload: :'gulp:build' do
     on roles(:all) do
       info "Uploading #{release_path}/public"
-      upload!('./public', "#{release_path}")
+      upload! './public', "#{release_path}", recursive: true
     end
   end
 
