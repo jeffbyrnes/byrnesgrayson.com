@@ -48,7 +48,7 @@ html {
     margin-bottom: em(25);
 }
 
-.couple-photo {
+.main-photo {
     @include span-columns(4 of 10);
 
     border: 1px solid $dark-gray;
@@ -57,7 +57,10 @@ html {
 .essentials {
     @include span-columns(6 of 10);
     @include omega;
-    @include pad(9.6% 0 0);
+
+    .home & {
+        @include pad(9.6% 0 0);
+    }
 
     img {
         display: block;

@@ -1,12 +1,20 @@
-<!doctype html>
+<?php
+if (in_array($_SERVER['REQUEST_URI'], array('/', '/index.php'))) {
+    $page = 'home';
+} else {
+    $page = trim($_SERVER['REQUEST_URI'], '/');
+}
+?><!doctype html>
 <head>
     <meta charset="utf-8">
     <title>Wedding of Morgan Byrnes & Ryan Grayson</title>
     <link href="/css/style.css" media="screen, projection" rel="stylesheet">
 
+    <script>console.log('$page is <?php echo $page; ?>');</script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body class="<?php echo $page; ?>">
     <div class="container">
         <header class="centered-navigation">
             <div class="centered-navigation-wrapper">
@@ -17,30 +25,28 @@
                 <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
 
                 <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
-                    <!-- <li class="nav-link"><a href="/">Welcome</a></li> -->
-                    <!-- <li class="nav-link">•</li> -->
-                    <!-- <li class="nav-link"><a href="/when-where">When+Where</a></li> -->
+                    <li class="nav-link"><a href="/">Welcome</a></li>
+                    <li class="nav-link">•</li>
+                    <li class="nav-link"><a href="/when-where">When+Where</a></li>
                     <li class="nav-link logo">
                         <a href="/">
                             <img src="/img/monogram.png" alt="GMR monogram">
                         </a>
                     </li>
-                    <!-- <li class="nav-link"><a href="/stay-play">Stay+Play</a></li> -->
-                    <!-- <li class="nav-link">•</li> -->
-                    <!-- <li class="nav-link"><a href="/bridal-party">Bridal Party</a></li> -->
+                    <li class="nav-link"><a href="/stay-play">Stay+Play</a></li>
+                    <li class="nav-link">•</li>
+                    <li class="nav-link"><a href="/bridal-party">Bridal Party</a></li>
                 </ul>
             </div>
         </header>
 
         <div class="content">
-            <img class="couple-photo" src="/img/fancy-couple.jpg" alt="Morgan and Ryan in formal attire">
-
-            <section class="essentials">
-                <img src="/img/essentials.png" alt="Save the Date, Morgan+Ryan, 9.19.2015, Palmetto Bluff, SC">
-            </section>
+            <?php
+            require_once("_{$page}.php");
+            ?>
         </div>
 
-        <p class="copyright">© 2014–2015 byrnesgrayson.com</p>
+        <p class="copyright">© 2014–<?php echo date('Y'); ?> byrnesgrayson.com</p>
     </div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="/js/script.js" async defer></script>
