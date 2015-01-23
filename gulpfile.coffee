@@ -131,4 +131,4 @@ gulp.task 'watch', ->
 
 
 # Default Task
-gulp.task 'default', ['sass-dev', 'coffee-dev', 'watch']
+gulp.task 'default', ['sass-dev', 'coffee', 'watch']
