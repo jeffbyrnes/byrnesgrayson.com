@@ -22,6 +22,8 @@ sourcemaps = require('gulp-sourcemaps')
 # LiveReload
 livereload = require('gulp-livereload')
 
+# Delete stuff
+del = require('del')
 
 # ==================================================
 # Paths & Files
@@ -101,6 +103,13 @@ gulp.task 'copy-markup', ->
     .pipe(gulp.dest("#{public_path}"));
 
 
+# Clean out the public folder for the next preflight/deployment
+gulp.task "clean", (cb) ->
+  del [
+    public_path
+  ], cb
+
+
 # Reload
 gulp.task 'reload', ->
   gulp.src(watched_files)
@@ -108,7 +117,7 @@ gulp.task 'reload', ->
 
 
 # Preflight. Make ready for production.
-gulp.task 'preflight', ->
+gulp.task 'preflight', ['clean'], ->
   gulp.run(
     'imgmin',
     'sass-prod',
