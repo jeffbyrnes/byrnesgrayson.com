@@ -13,6 +13,9 @@ imagemin = require('gulp-imagemin')
 # Coffeescript
 coffee = require('gulp-coffee')
 
+# JS compression
+uglify = require('gulp-uglify')
+
 # Sourcemaps
 sourcemaps = require('gulp-sourcemaps')
 
@@ -60,8 +63,8 @@ gulp.task 'sass-prod', ->
     .pipe gulp.dest("#{public_path}/#{css_path}")
 
 
-# Coffee compilation for dev
-gulp.task 'coffee-dev', ->
+# Coffee compilation
+gulp.task 'coffee', ->
   gulp.src("#{coffee_path}/*.coffee")
     .pipe(sourcemaps.init())
     .pipe(coffee({bare: true}).on('error', gutil.log))
@@ -69,12 +72,10 @@ gulp.task 'coffee-dev', ->
     .pipe gulp.dest(js_path)
 
 
-# Coffee compilation for prod
-gulp.task 'coffee-prod', ->
-  gulp.src("#{coffee_path}/*.coffee")
-    .pipe(sourcemaps.init())
-    .pipe(coffee({bare: true}).on('error', gutil.log))
-    .pipe(sourcemaps.write())
+# JS compression
+gulp.task 'compress', ->
+  gulp.src("#{js_path}/*.js")
+    .pipe(uglify())
     .pipe gulp.dest("#{public_path}/#{js_path}")
 
 
@@ -111,6 +112,8 @@ gulp.task 'preflight', ->
   gulp.run(
     'imgmin',
     'sass-prod',
+    'coffee',
+    'compress',
     'copy-fonts',
     'copy-markup'
   )
