@@ -58,7 +58,7 @@ html {
     @include omega;
 
     .home & {
-        @include pad(9.6% 0 0);
+        padding-top: 9.6%;
     }
 
     &.full-width {
