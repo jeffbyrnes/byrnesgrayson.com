@@ -104,10 +104,10 @@ gulp.task 'copy-markup', ->
 
 
 # Clean out the public folder for the next preflight/deployment
-gulp.task "clean", (cb) ->
+gulp.task "clean", ->
   del [
     public_path
-  ], cb
+  ]
 
 
 # Reload
@@ -117,15 +117,18 @@ gulp.task 'reload', ->
 
 
 # Preflight. Make ready for production.
-gulp.task 'preflight', ['clean'], ->
-  gulp.run(
+gulp.task(
+  'preflight',
+  [
+    'clean',
     'imgmin',
     'sass-prod',
     'coffee',
     'compress',
     'copy-fonts',
     'copy-markup'
-  )
+  ]
+)
 
 
 # Watch
