@@ -32,7 +32,7 @@ if (in_array($_SERVER['REQUEST_URI'], array('/', '/index.php'))) {
                 </li>
                 <li class="nav-link"><a href="/stay-play">Stay+Play</a></li>
                 <li class="nav-link nav-separator">•</li>
-                <li class="nav-link"><a href="/bridal-party">Bridal Party</a></li>
+                <li class="nav-link"><a href="/wedding-party">Wedding Party</a></li>
             </ul>
         </div>
     </header>
