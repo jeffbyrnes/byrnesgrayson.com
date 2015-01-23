@@ -24,7 +24,7 @@ if (in_array($_SERVER['REQUEST_URI'], array('/', '/index.php'))) {
 
                 <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
                     <li class="nav-link"><a href="/">Welcome</a></li>
-                    <li class="nav-link">•</li>
+                    <li class="nav-link nav-separator">•</li>
                     <li class="nav-link"><a href="/when-where">When+Where</a></li>
                     <li class="nav-link logo">
                         <a href="/">
@@ -32,7 +32,7 @@ if (in_array($_SERVER['REQUEST_URI'], array('/', '/index.php'))) {
                         </a>
                     </li>
                     <li class="nav-link"><a href="/stay-play">Stay+Play</a></li>
-                    <li class="nav-link">•</li>
+                    <li class="nav-link nav-separator">•</li>
                     <li class="nav-link"><a href="/bridal-party">Bridal Party</a></li>
                 </ul>
             </div>

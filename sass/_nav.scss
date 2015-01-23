@@ -123,6 +123,14 @@
         }
     }
 
+    .nav-separator {
+        display: none;
+
+        @include media($large-screen-up) {
+            display: inline;
+        }
+    }
+
     .logo.nav-link {
         display: none;
         line-height: 0;
