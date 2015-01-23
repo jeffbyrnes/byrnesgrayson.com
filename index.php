@@ -10,8 +10,6 @@ if (in_array($_SERVER['REQUEST_URI'], array('/', '/index.php'))) {
     <title>Wedding of Morgan Byrnes & Ryan Grayson</title>
     <link href="/css/style.css" media="screen, projection" rel="stylesheet">
 
-    <script>console.log('$page is <?php echo $page; ?>');</script>
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body class="<?php echo $page; ?>">
