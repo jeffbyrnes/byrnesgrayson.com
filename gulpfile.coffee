@@ -93,9 +93,9 @@ gulp.task 'copy-fonts', ->
     .pipe gulp.dest("#{public_path}/#{font_path}")
 
 
-# Copy index for production release
-gulp.task 'copy-index', ->
-  gulp.src('./index.html')
+# Copy markup for production release
+gulp.task 'copy-markup', ->
+  gulp.src(['./*.php', '.htaccess'])
     # Perform minification tasks, etc here
     .pipe(gulp.dest("#{public_path}"));
 
@@ -108,7 +108,12 @@ gulp.task 'reload', ->
 
 # Preflight. Make ready for production.
 gulp.task 'preflight', ->
-  gulp.run 'imgmin', 'sass-prod', 'copy-fonts', 'copy-index'
+  gulp.run(
+    'imgmin',
+    'sass-prod',
+    'copy-fonts',
+    'copy-markup'
+  )
 
 
 # Watch
