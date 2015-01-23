@@ -64,12 +64,12 @@ html {
     &.full-width {
         @include span-columns(10 of 10);
     }
+}
 
-    img {
-        display: block;
+.essentials {
+    display: block;
 
-        margin: 0 auto;
-    }
+    margin: 0 auto em(10);
 }
 
 .copyright {
