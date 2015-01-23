@@ -2,7 +2,7 @@
 if (in_array($_SERVER['REQUEST_URI'], array('/', '/index.php'))) {
     $page = 'home';
 } else {
-    $page = trim($_SERVER['REQUEST_URI'], '/');
+    $page = strtolower(trim($_SERVER['REQUEST_URI'], '/'));
 }
 ?><!doctype html>
 <head>

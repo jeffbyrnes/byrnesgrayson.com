@@ -1,3 +1,3 @@
 RewriteEngine on
 RewriteCond $1     ^(bridal-party|stay-play|when-where)
-RewriteRule ^(.*)$ /index.php?p=$1 [L]
+RewriteRule ^(.*)$ /index.php?p=$1 [NC,L]
