@@ -9,12 +9,12 @@
 
     <dl>
         <dt><time datetime="2015-09-18">FRIDAY</time></dt>
-        <dd>evening cocktails by the fire pit (casual)</dd>
+        <dd>evening cocktails by the fire pit (smart casual)</dd>
 
         <dt><time datetime="2015-09-19">SATURDAY</time></dt>
-        <dd>wedding ceremony will take place in the late afternoon followed by the reception and after party! (black tie optional)</dd>
+        <dd>wedding ceremony will take place in the evening followed by the reception and after party! (black tie optional)</dd>
 
         <dt><time datetime="2015-09-20">SUNDAY</time></dt>
-        <dd>brunch (casual)</dd>
+        <dd>morning toast with the Mr. + Mrs. (smart casual)</dd>
     </dl>
 </section>
