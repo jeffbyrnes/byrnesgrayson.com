@@ -15,6 +15,6 @@
         <dd>wedding ceremony will take place in the evening followed by the reception and after party! (black tie optional)</dd>
 
         <dt><time datetime="2015-09-20">SUNDAY</time></dt>
-        <dd>morning toast with the Mr. + Mrs. (smart casual)</dd>
+        <dd>morning toast with the newlyweds (smart casual)</dd>
     </dl>
 </section>
