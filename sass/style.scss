@@ -78,6 +78,11 @@ html {
     .home & {
         padding-top: 9.6%;
     }
+
+    .page-title {
+        font-family: oceaniaregular, sans-serif;
+        font-size: $h1-font-size * 1.2;
+    }
 }
 
 .essentials {
