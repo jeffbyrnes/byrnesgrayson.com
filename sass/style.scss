@@ -83,6 +83,10 @@ html {
         font-family: oceaniaregular, sans-serif;
         font-size: $h1-font-size * 1.2;
     }
+
+    .list {
+        @extend %default-ul
+    }
 }
 
 .essentials {
