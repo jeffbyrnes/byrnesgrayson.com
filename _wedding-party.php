@@ -1,4 +1,8 @@
-<section class="copy full-width">
+<div class="photos">
+    <img src="/img/palmetto-bluff-low-country.png" alt="Snapshot of the Low Country">
+</div>
+
+<section class="copy">
     <h1 class="page-title">Wedding Party</h1>
 
     <p>Our wedding party is made up of four people that have been in each of our lives for a long time. We are blessed to have them play such an important role on our wedding day.</p>
