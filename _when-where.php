@@ -1,4 +1,7 @@
-<img class="main-photo" src="/img/palmetto-bluff-chapel.jpg" alt="The chapel at Palmetto Bluff">
+<div class="photos">
+    <img src="/img/palmetto-bluff-chapel.jpg" alt="The chapel at Palmetto Bluff">
+    <img src="/img/palmetto-bluff-main-house-village-green.jpg" alt="The main house and village green Palmetto Bluff">
+</div>
 
 <section class="copy">
     <h1>When + Where</h1>

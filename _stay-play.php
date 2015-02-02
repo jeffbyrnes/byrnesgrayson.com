@@ -1,4 +1,6 @@
-<img class="main-photo" src="/img/palmetto-bluff-map.png" alt="A map of Palmetto Bluff & surrounding area">
+<div class="photos">
+    <img src="/img/palmetto-bluff-map.png" alt="A map of Palmetto Bluff & surrounding area">
+</div>
 
 <section class="copy">
     <h1>Stay + Play</h1>

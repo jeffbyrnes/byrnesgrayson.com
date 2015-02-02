@@ -54,12 +54,15 @@ html {
     }
 }
 
-.main-photo {
+.photos {
     @include media($large-screen) {
         @include span-columns(4 of 10);
     }
 
-    border: 1px solid $base-border-color;
+    img {
+        border: 1px solid $base-border-color;
+        margin-bottom: em(10);
+    }
 }
 
 .copy {
