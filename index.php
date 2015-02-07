@@ -22,7 +22,7 @@ if (in_array($_SERVER['REQUEST_URI'], array('/', '/index.php'))) {
             <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
 
             <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
-                <li class="nav-link"><a href="/">Welcome</a></li>
+                <li class="nav-link"><a href="/rsvp">RSVP</a></li>
                 <li class="nav-link nav-separator">•</li>
                 <li class="nav-link"><a href="/when-where">When+Where</a></li>
                 <li class="nav-link logo">
