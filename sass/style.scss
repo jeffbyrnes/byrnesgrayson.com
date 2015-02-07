@@ -86,6 +86,12 @@ html {
         text-transform: uppercase;
     }
 
+    h2 {
+        font-weight: normal;
+
+        text-transform: lowercase;
+    }
+
     .list {
         @extend %default-ul
     }
