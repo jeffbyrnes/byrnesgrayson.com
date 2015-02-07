@@ -1,6 +1,6 @@
 <div class="photos">
     <img src="/img/palmetto-bluff-chapel.jpg" alt="The chapel at Palmetto Bluff">
-    <img src="/img/palmetto-bluff-main-house-village-green.jpg" alt="The main house and village green Palmetto Bluff">
+    <img src="/img/palmetto-bluff-low-country.jpg" alt="A man riding a bicycle in the Low Country">
 </div>
 
 <section class="copy">

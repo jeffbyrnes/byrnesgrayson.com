@@ -1,5 +1,6 @@
 <div class="photos">
-    <img src="/img/palmetto-bluff-map.png" alt="A map of Palmetto Bluff & surrounding area">
+    <img src="/img/palmetto-bluff-map.jpg" alt="A map of Palmetto Bluff & surrounding area">
+    <img src="/img/palmetto-bluff-cottage.jpg" alt="A cottage at Palmetto Bluff">
 </div>
 
 <section class="copy">
