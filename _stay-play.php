@@ -23,7 +23,9 @@
 
     <p>To make your reservation at the resort, please call reservations at Palmetto Bluff and mention you are reserving under the Byrnes Grayson wedding cottage block.</p>
 
-    <p>Additionally, we have room blocks at both the <a href="http://hamptoninn3.hilton.com/en/hotels/south-carolina/hampton-inn-and-suites-bluffton-sun-city-BFNSCHX/index.html">Hampton Inn</a> and <a href="http://www.ihg.com/holidayinnexpress/hotels/us/en/bluffton/btosc/hoteldetail">Holiday Inn</a>, and we will be providing trolley transportation to and from on Saturday for the wedding festivities. Room blocks are under <em>Byrnes Grayson Wedding</em>.</p>
+    <p>Additionally, we have room blocks at both the <a href="http://hamptoninn3.hilton.com/en/hotels/south-carolina/hampton-inn-and-suites-bluffton-sun-city-BFNSCHX/index.html">Hampton Inn</a>, and <a href="http://www.hiexpress.com/redirect?path=hd&brandCode=ex&localeCode=en&regionCode=1&hotelCode=BTOSC&_PMID=99801505&GPC=BGW">Holiday Inn</a>. Room blocks are under <em>Byrnes Grayson Wedding</em>, or block code BGW.</p>
+
+    <p>We will be providing trolley transportation to and from on Saturday for the wedding festivities.</p>
 
     <p>While you’re in town for our wedding, enjoy yourself — make a tee time, go fishing, get a spa treatment, lay by the pool, or take a boat ride over the sandbar!</p>
 </section>
