@@ -6,3 +6,4 @@ public
 css
 js
 .capistrano
+Gemfile.lock
