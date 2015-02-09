@@ -5,19 +5,24 @@
         color: $red;
     }
 
-    .text-horiz {
+    .horiz {
         @include media($large-screen) {
             @include span-columns(5 of 10);
         }
     }
 
-    .last {
+    li:nth-child(even) {
         @include media($large-screen) {
             @include omega;
         }
     }
 
-    .error-message {
-        display: none;
+    .submit {
+        text-align: center;
+
+        @include media($large-screen) {
+            @include span-columns(10 of 10);
+            @include omega;
+        }
     }
 }

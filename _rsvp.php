@@ -9,7 +9,7 @@
 
     <form class="rsvp-form" method="post" action="https://docs.google.com/forms/d/14H6BBjBK272VfGgKqNq6h5fm0wCoC8P6HGFTXhkxIlQ/formResponse?embedded=true" data-abide>
         <ol>
-            <li class="text-horiz">
+            <li class="horiz">
                 <label class="item-label" for="entry_1861052402">
                     <p class="title">
                         First Name <span class="required-asterisk">*</span>
@@ -19,7 +19,7 @@
                 </label>
             </li>
 
-            <li class="text-horiz last">
+            <li class="horiz">
                 <label class="item-label" for="entry_1769345773">
                     <p class="title">
                         Last Name <span class="required-asterisk">*</span>
@@ -29,7 +29,7 @@
                 </label>
             </li>
 
-            <li>
+            <li class="horiz">
                 <label class="item-label" for="entry_1326483091">
                     <p class="title">
                         Attending? <span class="required-asterisk">*</span>
@@ -53,7 +53,17 @@
                 </ul>
             </li>
 
-            <li>
+            <li class="horiz">
+                <label class="item-label" for="entry_66183726">
+                    <p class="title">
+                        How many are you? <span class="required-asterisk">*</span>
+                    </p>
+
+                    <input type="number" name="entry.66183726" id="entry_66183726" required>
+                </label>
+            </li>
+
+            <li class="submit">
                 <input type="submit" name="submit" value="Submit" id="submit">
             </li>
         </ol>
