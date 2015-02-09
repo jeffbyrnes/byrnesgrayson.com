@@ -17,6 +17,7 @@ button {
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
+  transition: background-color 0.2s;
 
   &:hover,
   &:focus {
