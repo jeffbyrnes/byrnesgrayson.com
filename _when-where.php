@@ -19,16 +19,17 @@
 
         <dt><time datetime="2015-09-19">SATURDAY</time></dt>
         <dd>
-            5p : ceremony at the Chapel<br>
-            5:30p - 6:30p : waterside cocktails<br>
-            6:30 - 10p: dinner + dancing on the Village Green<br>
-            10p -12p: after party and dancing upstairs in the River House<br>
-            (black tie optional attire)
+            5p: ceremony at the Chapel<br>
+            5:30p–6:30p: waterside cocktails<br>
+            6:30–10p: dinner + dancing on the Village Green<br>
+            10p–12p: after party and dancing upstairs in the River House<br>
+            (black tie optional attire)<br>
+            * There will be trolley service to/from the Hampton and Holiday Inns
         </dd>
 
         <dt><time datetime="2015-09-20">SUNDAY</time></dt>
         <dd>
-            10a : pop by the Byrnes house for a morning toast and brunch bites<br>
+            10a: pop by the Byrnes house for a morning toast and brunch bites<br>
             (casual attire)
         </dd>
     </dl>
