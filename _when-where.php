@@ -24,7 +24,7 @@
             6:30p: dinner + dancing on the Village Green<br>
             10p–12a: after party and dancing upstairs in the River House<br>
             (black tie optional attire)<br>
-            * There will be trolley service to/from the Hampton and Holiday Inns
+            * There will be trolley service to/from the Hampton Inn and the Candlewood Suites (next door to one another)
         </dd>
 
         <dt><time datetime="2015-09-20">SUNDAY the 20th</time></dt>

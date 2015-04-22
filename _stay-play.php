@@ -22,7 +22,7 @@
     <ul class="list">
         <li><a href="http://www.palmettobluff.com">Palmetto Bluff Resort</a> – call the inn and mention Byrnes Grayson Wedding</li>
         <li><a href="http://hamptoninn3.hilton.com/en/hotels/south-carolina/hampton-inn-and-suites-bluffton-sun-city-BFNSCHX/index.html">Hampton Inn</a> – call and mention Byrnes Grayson Wedding</li>
-        <li><a href="http://www.hiexpress.com/redirect?path=hd&brandCode=ex&localeCode=en&regionCode=1&hotelCode=BTOSC&_PMID=99801505&GPC=BGW">Holiday Inn</a> – call and mention Byrnes Grayson Wedding, or book online with block code <abbr>BGW</abbr></li>
+        <li><a href="http://www.ihg.com/candlewood/hotels/us/en/bluffton/btocw/hoteldetail">Candlewood Suites</a> – call and mention Byrnes Grayson Wedding, or book online by entering in the dates of <time datetime="2015-09-18">09-18-15</time> to <time datetime="2015-09-20">09-20-15</time>, then add group code <abbr>BGY</abbr></li>
     </ul>
 
     <p>We will be providing trolley transportation to and from the Hampton Inn and Holiday Inn on Saturday for the wedding festivities.</p>
