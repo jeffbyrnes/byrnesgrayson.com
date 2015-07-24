@@ -100,7 +100,7 @@ gulp.task 'copy-fonts', ->
 gulp.task 'copy-markup', ->
   gulp.src(['./*.php', '.htaccess'])
     # Perform minification tasks, etc here
-    .pipe(gulp.dest("#{public_path}"));
+    .pipe(gulp.dest("#{public_path}"))
 
 
 # Clean out the public folder for the next preflight/deployment
