@@ -13,7 +13,7 @@
     <dl>
         <dt><time datetime="2015-09-18">FRIDAY the 18th</time></dt>
         <dd>
-            join us by the fire pits!<br>
+            join us at Buffalos!<br>
             (smart casual attire)
         </dd>
 
