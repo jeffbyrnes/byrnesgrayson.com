@@ -1,9 +1,0 @@
-.vagrant
-stylesheets
-node_modules
-bower_components
-public
-css
-js
-.capistrano
-Gemfile.lock
